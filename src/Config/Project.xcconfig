@@ -1,0 +1,5 @@
+// Public defaults. Override both values in Signing.local.xcconfig for your own account.
+WATCHDOT_BUNDLE_ID = dev.example.watchdot
+WATCHDOT_DEVELOPMENT_TEAM =
+#include? "Signing.local.xcconfig"
+DEVELOPMENT_TEAM = $(WATCHDOT_DEVELOPMENT_TEAM)

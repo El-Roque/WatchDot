@@ -1,0 +1,32 @@
+# Build products and local caches
+.build/
+**/.build/
+DerivedData/
+**/DerivedData/
+**/target/
+*.dSYM/
+*.xcresult/
+*.ipa
+*.app/
+*.appex/
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+
+# Xcode user state and local signing choices
+**/xcuserdata/
+*.xcuserstate
+src/Config/Signing.local.xcconfig
+
+# Never publish account material or signing credentials
+.env
+.env.*
+!.env.example
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.key
+*.keychain*
+auth.json

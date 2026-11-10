@@ -1,0 +1,3 @@
+// Copy to Signing.local.xcconfig and enter your own Apple development team and unique app ID.
+WATCHDOT_DEVELOPMENT_TEAM = YOURTEAMID
+WATCHDOT_BUNDLE_ID = com.yourname.watchdot

@@ -1,0 +1,43 @@
+Watch Dot
+Copyright 2026 Watch Dot contributors
+
+SPDX-License-Identifier: GPL-3.0-only
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, version 3 of the License only.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+The authentication implementation was informed by the public OAuth protocol
+used by OpenAI Codex (https://github.com/openai/codex), licensed under Apache-2.0.
+This attribution identifies a protocol reference; it does not assert that
+OpenAI authored or endorses Watch Dot.
+
+Local adaptation: WatchDot, 2026-11-04.
+App branding, personal signing configuration, spoken-reply controls and installation documentation were modified locally. Original attribution and license are retained.
+
+Standalone Watch adaptation and public-source preparation: 2026-11-09.
+The application was adapted to device-code authorization, CallKit-owned audio,
+independent ICE-TCP media, a Watch-only interface and a WidgetKit face launcher.
+The public package removes the obsolete iPhone app and app-owned Bluetooth/UDP
+transports, local research/client artifacts, account/device diagnostics and caches.
+The original Watch Dot attribution and GPL-3.0-only license are retained.
+
+The native audio implementation contains OpenClaw-derived code and uses str0m
+and libopus. Their copyright and license notices are preserved in
+src/Vendor/Notices; the locked component inventory is INDEX.json in that folder.
+Native wrapper/engine sources and the libopus source distribution are included
+under src/Native. The device-code flow follows the public Codex protocol as a
+protocol reference; this is not an assertion of endorsement by OpenAI.
+
+The app icon is the WatchDot project artwork. The distributed waiting sound is
+originally generated from mathematical oscillators by scripts/generate_ringback.py.
+No sound extracted from ChatGPT, desktop ASAR contents, decompilation output or
+personal account/signing material is part of this public package.

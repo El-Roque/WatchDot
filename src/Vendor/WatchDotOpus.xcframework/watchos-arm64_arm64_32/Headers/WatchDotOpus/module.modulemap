@@ -1,0 +1,4 @@
+module WatchDotOpus {
+    header "WatchDotOpus.h"
+    export *
+}
