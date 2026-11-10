@@ -1,5 +1,7 @@
 # Publishing the source
 
+The canonical public repository is [El-Roque/WatchDot](https://github.com/El-Roque/WatchDot), with main as its default branch. The initial source publication was explicitly authorized by the owner on 2026-11-10. See [validation](VALIDATION.md) for the source audit and initial commit.
+
 This tree is prepared for a normal Git repository. No remote repository, commit, push, release or App Store submission is created by the preparation tools.
 
 ## Before publishing

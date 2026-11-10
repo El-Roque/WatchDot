@@ -26,7 +26,7 @@ The bundled native libraries cover physical Watch `arm64_32` / `arm64` and Apple
 
 ## Install
 
-1. Download the repository ZIP or clone it, then extract it to a local folder.
+1. [Download the ZIP](https://github.com/El-Roque/WatchDot/archive/refs/heads/main.zip) or clone the repository, then extract it to a local folder.
 2. Open [`src/WatchDot.xcodeproj`](src/WatchDot.xcodeproj) in Xcode.
 3. Configure **your own team and unique identifiers for both targets**.
 4. Select the **WatchDot** scheme and your physical Watch, then build and run.

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "status": "build_4_accepted_source_ready_for_github",
+  "status": "build_4_source_published",
   "source_directory": "src",
   "application_project": "src/WatchDot.xcodeproj",
   "scheme": "WatchDot",
@@ -25,8 +25,8 @@
   "owner_signing_separated_and_git_ignored": true,
   "signed_build_installed_during_packaging": false,
   "public_repository_created": true,
-  "commits_created": false,
-  "published": false,
+  "commits_created": true,
+  "published": true,
   "limits": [
     "The build-2 fluency test used Watch Wi-Fi; the nearby-iPhone/no-Wi-Fi routing baseline was accepted before this correction.",
     "The newly generated waiting waveform has not had a separate physical listening approval.",
@@ -148,5 +148,10 @@
   "public_repository_url": "https://github.com/El-Roque/WatchDot",
   "public_repository_visibility": "public",
   "publication_authorization": "explicit_user_request_2026-11-10",
-  "publication_state": "repository_created_source_upload_pending"
+  "publication_state": "published",
+  "public_default_branch": "main",
+  "initial_source_commit": "f714c99df48e7c98b397d3ef0b039fb708311569",
+  "initial_source_commit_remote_verified": true,
+  "source_publication_date": "2026-11-10",
+  "git_preserves_upstream_source_and_notice_bytes": true
 }

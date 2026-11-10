@@ -58,7 +58,7 @@ The final preflight passes: 35 portable project references, two Watch-only targe
 
 The last 48 cloud placeholders were unmodified upstream Opus source files. They were restored from the official Opus 1.6.1 archive after verifying its published SHA-256, matching all 434 readable local files, and checking the pending files' sizes. All 482 included Opus source files now match that official release. The dependency version, Swift application code, prebuilt native libraries and installed app were not changed. Details and the archive checksum are in src/Native/README.md and docs/VALIDATION.md.
 
-The user explicitly authorized publication after the readiness audit. The public repository https://github.com/El-Roque/WatchDot has been created; the verified initial source upload is in progress. Build-4 physical acceptance remains valid; the previously recorded single-device/service-access limits still apply.
+The user explicitly authorized publication after the readiness audit. The verified source is published in the public repository https://github.com/El-Roque/WatchDot on main. The initial source commit is f714c99df48e7c98b397d3ef0b039fb708311569. GitHub received that exact commit, and the repository is public. Git is initialized at the project root with this repository as origin. The publication uses a GitHub noreply author address and excludes local signing. Further publication requires its own user instruction. Build-4 physical acceptance remains valid; the previously recorded single-device/service-access limits still apply.
 
 ## Build-4 first-response validation
 

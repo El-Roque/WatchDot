@@ -10,7 +10,7 @@ When moving from an earlier personal build, the WatchDot identity and account-st
 
 ## 1. Open the project
 
-Download and extract the entire repository, or clone it with Git. Use a fully downloaded local folder; cloud placeholders must finish downloading before Xcode can read sources and libraries. Open `src/WatchDot.xcodeproj`. Select the **WatchDot** scheme.
+[Download and extract the entire repository](https://github.com/El-Roque/WatchDot/archive/refs/heads/main.zip), or clone it with Git from [El-Roque/WatchDot](https://github.com/El-Roque/WatchDot). Use a fully downloaded local folder; cloud placeholders must finish downloading before Xcode can read sources and libraries. Open `src/WatchDot.xcodeproj`. Select the **WatchDot** scheme.
 
 The current project has exactly two watchOS targets: **WatchDot** and **WatchDotLauncher**.
 
