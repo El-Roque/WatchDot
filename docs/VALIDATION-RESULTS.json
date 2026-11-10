@@ -41,7 +41,7 @@
   "native_device_and_simulator_libraries_rebuilt": true,
   "obsolete_app_name_references": 0,
   "project_references": 35,
-  "public_files": 843,
+  "public_files": 844,
   "largest_file_bytes": 98500760,
   "bundle_names_and_identifiers": "verified_device_and_simulator",
   "renamed_build_launched": true,
@@ -154,12 +154,20 @@
   "initial_source_commit_remote_verified": true,
   "source_publication_date": "2026-11-10",
   "git_preserves_upstream_source_and_notice_bytes": true,
-  "readme_screenshot_count": 2,
+  "readme_screenshot_count": 3,
   "readme_screenshot_paths": [
     "docs/screenshots/home.png",
-    "docs/screenshots/call.png"
+    "docs/screenshots/call.png",
+    "docs/screenshots/watch-face.png"
   ],
   "readme_screenshots_language": "English",
-  "readme_screenshots_provenance": "watchOS Simulator layout-only previews",
-  "readme_screenshots_use_live_account_or_call": false
+  "readme_screenshots_provenance": "watchOS Simulator: app layout-only previews and the actual configured Infograph face",
+  "readme_screenshots_use_live_account_or_call": false,
+  "readme_watch_face_screenshot": {
+    "face": "Infograph",
+    "slot": "bottom circular",
+    "launcher": "WatchDot",
+    "source": "system watch-face UI with installed build 4",
+    "composite": false
+  }
 }

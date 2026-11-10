@@ -62,7 +62,7 @@ The user explicitly authorized publication after the readiness audit. The verifi
 
 ## Public README screenshots
 
-The user requested screenshots in the public README. Two unmodified 416 × 496 PNG captures show the current English home screen and call controls. They were captured in watchOS Simulator using the existing layout-only preview modes, without a live account or call, and were visually reviewed before inclusion. README captions and alternative text are English and identify the simulator previews. Assets are in docs/screenshots/home.png and docs/screenshots/call.png. No application source, installed app or voice behavior changed. The public inventory now contains 843 files.
+The user requested screenshots in the public README, followed by an example of the watch-face shortcut. Three unmodified 416 × 496 PNG captures show the English home screen, call controls and the Infograph face. The first two use the existing layout-only preview modes without a live account or call. The face was captured from the system watch-face UI in the watchOS 26.5 simulator after installing existing build 4 and selecting the actual WatchDot launcher for Infograph's bottom circular slot. It is not a composite image. The configured face reports Earth and WatchDot as its two complications. The captures were visually reviewed, and README captions and alternative text are English with simulator provenance stated. Assets are in docs/screenshots/home.png, call.png and watch-face.png. No application source, physical installed app or voice behavior changed. The public inventory now contains 844 files.
 
 ## Build-4 first-response validation
 

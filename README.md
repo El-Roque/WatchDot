@@ -17,11 +17,11 @@ WatchDot runs on the Watch. A nearby paired iPhone can provide Internet through 
 
 ## Screenshots
 
-| Home screen | Call controls |
-| :---: | :---: |
-| <img src="docs/screenshots/home.png" width="205" alt="WatchDot home screen with Call Dot and Account actions"> | <img src="docs/screenshots/call.png" width="205" alt="WatchDot call screen with duration, volume, microphone and end-call controls"> |
+| Home screen | Call controls | Watch-face shortcut |
+| :---: | :---: | :---: |
+| <img src="docs/screenshots/home.png" width="205" alt="WatchDot home screen with Call Dot and Account actions"> | <img src="docs/screenshots/call.png" width="205" alt="WatchDot call screen with duration, volume, microphone and end-call controls"> | <img src="docs/screenshots/watch-face.png" width="205" alt="Infograph watch face with the blue WatchDot shortcut in the bottom circular slot"> |
 
-Captured in watchOS Simulator using the app's preview screens. All interface text is in English.
+Captured in watchOS Simulator. The home and call screens use the app's preview modes. On the Infograph face, the bottom circular WatchDot icon opens the app. All interface text is in English.
 
 ## Requirements
 
