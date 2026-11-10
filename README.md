@@ -15,6 +15,14 @@ WatchDot runs on the Watch. A nearby paired iPhone can provide Internet through 
 - A circular or corner watch-face shortcut that opens WatchDot.
 - CallKit-managed audio and direct, encrypted ICE-TCP media.
 
+## Screenshots
+
+| Home screen | Call controls |
+| :---: | :---: |
+| <img src="docs/screenshots/home.png" width="205" alt="WatchDot home screen with Call Dot and Account actions"> | <img src="docs/screenshots/call.png" width="205" alt="WatchDot call screen with duration, volume, microphone and end-call controls"> |
+
+Captured in watchOS Simulator using the app's preview screens. All interface text is in English.
+
 ## Requirements
 
 - A Mac with Xcode and a compatible watchOS SDK. The project was built with Xcode 26.6 / watchOS SDK 26.5.

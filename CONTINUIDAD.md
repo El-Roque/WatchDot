@@ -60,6 +60,10 @@ The last 48 cloud placeholders were unmodified upstream Opus source files. They 
 
 The user explicitly authorized publication after the readiness audit. The verified source is published in the public repository https://github.com/El-Roque/WatchDot on main. The initial source commit is f714c99df48e7c98b397d3ef0b039fb708311569. GitHub received that exact commit, and the repository is public. Git is initialized at the project root with this repository as origin. The publication uses a GitHub noreply author address and excludes local signing. Further publication requires its own user instruction. Build-4 physical acceptance remains valid; the previously recorded single-device/service-access limits still apply.
 
+## Public README screenshots
+
+The user requested screenshots in the public README. Two unmodified 416 × 496 PNG captures show the current English home screen and call controls. They were captured in watchOS Simulator using the existing layout-only preview modes, without a live account or call, and were visually reviewed before inclusion. README captions and alternative text are English and identify the simulator previews. Assets are in docs/screenshots/home.png and docs/screenshots/call.png. No application source, installed app or voice behavior changed. The public inventory now contains 843 files.
+
 ## Build-4 first-response validation
 
 The user waits for Dot to finish the greeting before replying. The preserved build-3 call was retrieved after the Watch was made available. It showed first authenticated media at 12,142.6 ms and local call readiness at 19,522.1 ms, a 7,379.5 ms gap. The controller kept microphone PCM muted until the attachment HTTP response completed, even when authenticated media had already arrived. This is a local startup admission delay and a candidate contributor to the reported first-turn latency; the trace has no user-speech-end marker and does not prove the exact service response time. Playback recorded zero packet drops, zero resets and zero interruptions in this sample. Remote stop returned HTTP 200 and no system call remained.
